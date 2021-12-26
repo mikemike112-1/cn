@@ -1,3 +1,22 @@
+#activity 1
+#learning objectives:
+#   -import
+#   -pygame
+#   -sys
+#   -pygame.locals
+#   -import *
+#   -whileTrue
+#   -tabs
+#   -if
+#   -AND MORE STUFF BUT NEED TO MAKE IT STRATEGIC AS WELL
+#   NOT J DO A DUMP OF STUFF 
+#
+#   before continuing: ask the ninja what each of these are and
+#   how they used each of these inside of this activity
+#   if there is any lack of clarity: simply move backwards and
+#   do a little more practice
+
+
 import pygame, sys
 from pygame.locals import *
 
