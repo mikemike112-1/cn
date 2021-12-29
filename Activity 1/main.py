@@ -9,7 +9,7 @@
 #   -tabs
 #   -if
 #   -AND MORE STUFF BUT NEED TO MAKE IT STRATEGIC AS WELL
-#   NOT J DO A DUMP OF STUFF 
+#   NOT J DO A DUMP OF STUFF
 #
 #   before continuing: ask the ninja what each of these are and
 #   how they used each of these inside of this activity
