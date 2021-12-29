@@ -55,7 +55,7 @@ pygame.display.set_caption('Hello World!')
 #just like in javascript, we also have a while-true loop in python,
 #it looks like this...
 while True: # main game loop
-
+ 
     #this, is a for loop that will automatically loop through all the
     #elements inside of the given list or array of stuff
     for event in pygame.event.get():
