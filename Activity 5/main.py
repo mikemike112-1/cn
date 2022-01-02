@@ -1,3 +1,4 @@
+#LOOK AT ONENOTE NOTES 1/2 PYTHON FOR EDITS AND ADDITIONS
 import pygame, sys
 from pygame.locals import *
 

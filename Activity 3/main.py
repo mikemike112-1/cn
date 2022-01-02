@@ -1,3 +1,7 @@
+#what if at first this is what they do and then they add buttons
+#they choose the color of the shape and then they choose the shape
+#do that directly after and it can be 2 separate games so they
+#feel the accomplishment
 import pygame, sys
 from pygame.locals import *
 
