@@ -95,22 +95,31 @@ pygame.draw.circle(DISPLAYSURF, BLUE, (300, 150), 20, 10)
 # now let's draw an ellipse
 # an ellipse is basically like an oval 
 # notice how it takes 4 numbers instead of 2 for the coordinates
-pygame.draw.ellipse(DISPLAYSURF, RED, (300, 250, 80, 80), 1)
+# the first 2 numbers tell the ellipse where to go
+# the third number tells the ellipse how wide it should be (left-to-right)
+# the forth number tells the ellipse how tall to make the ellipse up to down
+# the last number, outside the parantheses, defines how wide to make the ellipse line 
+pygame.draw.ellipse(DISPLAYSURF, RED, (400, 50, 10, 80), 2)
 
+# now we will draw a rectangle 
+# the first 2 numbers tell where the rectangle should be placed
+# the third number tells how wide it should be (left-to-right)
+# the fourth number tells how high it should be (up-to-down) 
+pygame.draw.rect(DISPLAYSURF, RED, (200, 150, 100, 50))
 
-# pygame.draw.rect(DISPLAYSURF, RED, (200, 150, 100, 50))
-pixObj = pygame.PixelArray(DISPLAYSURF)
-pixObj[480][380] = BLACK
-pixObj[482][382] = BLACK
-pixObj[484][384] = BLACK
-pixObj[486][386] = BLACK
-pixObj[488][388] = BLACK
+# ------------------------------------------
+### I DONT THINK I EVEN NEED THESE LINES HERE... REMOVING THEM DIDN'T CHANGE ANYTHING
+# pixObj = pygame.PixelArray(DISPLAYSURF)
+# pixObj[480][380] = BLACK
+# pixObj[482][382] = BLACK
+# pixObj[484][384] = BLACK
+# pixObj[486][386] = BLACK
+# pixObj[488][388] = BLACK
+# del pixObj
+# ------------------------------------------
 
-del pixObj
-
-# run the game loop
+# running the game here 
 while True:
-
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()

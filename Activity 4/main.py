@@ -1,4 +1,17 @@
-#LOOK AT ONENOTE NOTES 1/2 PYTHON FOR EDITS AND ADDITIONS
+# activity 4
+# learning objectives:
+#   - import
+#   - pygame
+#   - sys
+#   - pygame.locals
+#   - import *
+#   - whileTrue 
+#   - indentation
+#   - if
+#   - adding in text
+#   - fonts
+#   - for loops
+
 import pygame, sys
 from pygame.locals import *
 
