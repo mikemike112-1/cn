@@ -312,7 +312,7 @@ class App():
 
         config = {}
 
-        stage = IntroStage(screen, config)
+        stage = IntroStage(screen, config) 
         stage.mainloop()
 
         stage = MenuStage(screen, config)
