@@ -2,12 +2,26 @@
 #they choose the color of the shape and then they choose the shape
 #do that directly after and it can be 2 separate games so they
 #feel the accomplishment
-import pygame, sys
+
+# this game is going to be a 2 part thing. 
+# first they create the game based on the steps and then
+# they remix it based on what they learn and do their own
+# thing 
+
+# so actually have this be the second part of part 1 so that they 
+# can test while they are creating the shapes. show them where the
+# code goes then have them put it there 
+
+#import statements 
+import pygame 
+import sys
 from pygame.locals import *
 
+# this will initialize your pygame functions and code 
+# pieces and assets you will use in your program 
 pygame.init()
 
-# set up the window
+# creating your window 
 DISPLAYSURF = pygame.display.set_mode((500, 400), 0, 32)
 pygame.display.set_caption('Drawing')
 
@@ -19,16 +33,71 @@ RED = (255,   0,   0)
 GREEN = (  0, 255,   0)
 BLUE = (  0,   0, 255)
 
-# draw on the surface object
+# here we can modify DISPLAYSURF to have a different background
+# color
+# You can try colors like:
+# RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE
 DISPLAYSURF.fill(WHITE)
+
+# now you are going to draw different shapes on the screen
+# the first one we will draw is a "polygon"
+# to do so, follow thses steps 
+# step 1:
+# pygame.draw
+# this tells pygame that we want access to the draw library 
+# step 2: 
+# pygame.draw.polygon()
+# this tells pygame that we want to draw a polygon
+# "polygon" simply refers to a shape with many sides 
+# step 3: 
+# pygame.draw.polygon(DISPLAYSURF)
+# DISPLAYSURF is here because it is telling the program where we 
+# want the shape to be drawn on top of 
+# step 4: 
+# add in the color as the next parameter  
+# pygame.draw.polygon(DISPLAYSURF, GREEN)
+# step 5: 
+# add in your first point here. you need at least 3 points in 
+# order to form the most basic shape, a triangle 
+pygame.draw.polygon(DISPLAYSURF, GREEN, ((14, 0), (291, 106), (236, 277)))
+
+#now we can create a polygon with 4 points 
+pygame.draw.polygon(DISPLAYSURF, GREEN, ((14, 0), (291, 106), (236, 277), (56, 277)))
+
+# and then 5 points
 pygame.draw.polygon(DISPLAYSURF, GREEN, ((14, 0), (291, 106), (236, 277), (56, 277), (0, 806)))
 
-#pygame.draw.polygon(DISPLAYSURF, GREEN, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
-# pygame.draw.line(DISPLAYSURF, BLUE, (60, 60), (120, 60), 4)
-# pygame.draw.line(DISPLAYSURF, BLUE, (120, 60), (60, 120))
-# pygame.draw.line(DISPLAYSURF, BLUE, (60, 120), (120, 120), 4)
-# pygame.draw.circle(DISPLAYSURF, BLUE, (300, 50), 20, 0)
-# pygame.draw.ellipse(DISPLAYSURF, RED, (300, 250, 40, 80), 1)
+# practice by drawing this one as well, with a different color
+pygame.draw.polygon(DISPLAYSURF, BLUE, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
+
+# now you will draw a line 
+# it is very similar to the polygon with just a few differences
+# instead of using ".polygon", you will use ".line"
+# instead of having unlimited points, like a polygon
+# this one can only have 2 points because lines only have 2 points
+# the start and the end 
+# the last number "4" is the width of the line and you can change to whatever you want 
+pygame.draw.line(DISPLAYSURF, RED, (60, 60), (120, 60), 4)
+
+# practice by drawing another line 
+# this time this one does not have a number at the end, it will default to having a width of 1 
+pygame.draw.line(DISPLAYSURF, RED, (120, 60), (60, 120))
+
+# now we are going to make a circle
+# this one has one coordinate which is showing where the circle will go
+# the number "20" is showing what the size of the circle should be
+# the number 0 is a placeholder that will allow you make a hole in your circle later
+pygame.draw.circle(DISPLAYSURF, BLUE, (300, 50), 20, 0)
+
+# let's make another circle, this one with a hole in the middle 
+pygame.draw.circle(DISPLAYSURF, BLUE, (300, 150), 20, 10)
+
+# now let's draw an ellipse
+# an ellipse is basically like an oval 
+# notice how it takes 4 numbers instead of 2 for the coordinates
+pygame.draw.ellipse(DISPLAYSURF, RED, (300, 250, 80, 80), 1)
+
+
 # pygame.draw.rect(DISPLAYSURF, RED, (200, 150, 100, 50))
 pixObj = pygame.PixelArray(DISPLAYSURF)
 pixObj[480][380] = BLACK
