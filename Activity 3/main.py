@@ -42,7 +42,6 @@ while True: # the main game loop
         catx += 5
         if catx == 280:
             direction = 'down'
-
     elif direction == 'down':
         caty += 5
         if caty == 220:

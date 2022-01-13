@@ -6,7 +6,7 @@ fpsClock = pygame.time.Clock()
 DISPLAYSURF = pygame.display.set_mode((800, 800), 0, 32)
 pygame.display.set_caption('Animation')
 WHITE = (255, 255, 255)
-catImg = pygame.image.load('dinoNugg.jpeg')
+catImg = pygame.image.load('cat.png')
 catx = 10
 caty = 10
 direction = 'right'
