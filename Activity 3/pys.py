@@ -1,4 +1,7 @@
-#change the
+# pys
+# change line 9 to be a size of (800, 800) instead of (350, 300)
+# run the game
+# now modify the game so that the image reaches the new corners before turning
 
 import pygame, sys
 from pygame.locals import *
