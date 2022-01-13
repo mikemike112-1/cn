@@ -1,17 +1,3 @@
-#what if at first this is what they do and then they add buttons
-#they choose the color of the shape and then they choose the shape
-#do that directly after and it can be 2 separate games so they
-#feel the accomplishment
-
-# this game is going to be a 2 part thing. 
-# first they create the game based on the steps and then
-# they remix it based on what they learn and do their own
-# thing 
-
-# so actually have this be the second part of part 1 so that they 
-# can test while they are creating the shapes. show them where the
-# code goes then have them put it there 
-
 #import statements 
 import pygame 
 import sys
