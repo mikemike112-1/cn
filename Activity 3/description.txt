@@ -1,0 +1,1 @@
+the student will create a game whereby an image floats around the screen and bounces off the walls

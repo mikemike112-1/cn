@@ -1,0 +1,2 @@
+activity 1 is used for creating a blank game window and giving the student the ability to use this as a template for
+their future prove yourselves that they will have to make
