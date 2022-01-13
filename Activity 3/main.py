@@ -19,7 +19,7 @@ pygame.init()
 FPS = 30 # frames per second setting
 fpsClock = pygame.time.Clock()
 # set up the window
-DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
+DISPLAYSURF = pygame.display.set_mode((300, 400), 0, 32)
 # text that shows up at the top when the game begins
 pygame.display.set_caption('Animation')
 WHITE = (255, 255, 255)
@@ -42,6 +42,7 @@ while True: # the main game loop
         catx += 5
         if catx == 280:
             direction = 'down'
+
     elif direction == 'down':
         caty += 5
         if caty == 220:
