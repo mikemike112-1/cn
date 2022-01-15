@@ -15,10 +15,19 @@ textSurfaceObj = fontObj.render('Hello world!', True, GREEN, BLUE)
 textRectObj = textSurfaceObj.get_rect()
 textRectObj.center = (200, 150)
 
+def cycle():
+    textSurfaceObj1 = fontObj.render('Hello world!', True, GREEN, WHITE)
+    textSurfaceObj2 = fontObj.render('Hello world!', True, GREEN, BLUE)
+    DISPLAYSURF.blit(textSurfaceObj1, textRectObj)
+    DISPLAYSURF.blit(textSurfaceObj2, textRectObj)
+
+
+
 while True:
     DISPLAYSURF.fill(WHITE)
+    cycle()
 
-    DISPLAYSURF.blit(textSurfaceObj, textRectObj)
+    #DISPLAYSURF.blit(textSurfaceObj, textRectObj)
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
