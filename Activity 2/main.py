@@ -11,7 +11,10 @@ pygame.init()
 DISPLAYSURF = pygame.display.set_mode((500, 400), 0, 32)
 pygame.display.set_caption('Drawing')
 
-# set up the colors
+# set up the colors using RGB values 
+# to make your own colors, you can go to https://www.w3schools.com/colors/colors_picker.asp 
+# copy the rgb values when you find a color you like and follow the examples below to add it
+# into your game 
 BLACK = (  0,   0,   0)
 WHITE = (255, 255, 255)
 
@@ -31,6 +34,7 @@ DISPLAYSURF.fill(WHITE)
 # step 1:
 # pygame.draw
 # this tells pygame that we want access to the draw library 
+
 # step 2: 
 # pygame.draw.polygon()
 # this tells pygame that we want to draw a polygon

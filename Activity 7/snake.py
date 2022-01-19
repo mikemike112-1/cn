@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# import statements
 import pygame
 import sys
 import time
@@ -7,22 +8,47 @@ import random
 
 from pygame.locals import *
 
+# frames per second
 FPS = 5
-pygame.init()
-fpsClock=pygame.time.Clock()
 
+# initializes pygame here
+pygame.init()
+
+# frames per second
+fpsClock = pygame.time.Clock()
+
+# defines the variables for the screen size
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
+
+# previously you were using DISPLAYSURF to make the screen and its dimension
+# in this game, we will use the variable name, 'screen'
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
+
+# COME BACK LATER
 surface = pygame.Surface(screen.get_size())
+
+# COME BACK LATER
 surface = surface.convert()
+
+# COME BACK LATER
 surface.fill((255,255,255))
+
+# this defines the clock, or how many times the game refreshes
 clock = pygame.time.Clock()
 
+# COME BACK LATER
 pygame.key.set_repeat(1, 40)
 
-GRIDSIZE=10
+# this defines the gridsize
+GRIDSIZE = 10
+
+# COME BACK
 GRID_WIDTH = SCREEN_WIDTH / GRIDSIZE
+
+#COME BACK
 GRID_HEIGHT = SCREEN_HEIGHT / GRIDSIZE
+
+#
 UP    = (0, -1)
 DOWN  = (0, 1)
 LEFT  = (-1, 0)
