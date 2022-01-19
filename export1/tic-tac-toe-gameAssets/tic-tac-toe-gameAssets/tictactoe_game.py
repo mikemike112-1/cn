@@ -40,28 +40,53 @@ pg.init()
 # this means how many times the window is refreshed (updated) per second
 fps = 30
 
-# this creates the "clock" or the thing 
+# this creates the "clock" or the thing which keeps track of how quickly the game display is being updated
 CLOCK = pg.time.Clock()
+
+# this is the same as DISPLAYSURF from previous games
+# except now the variable is named "screen"
 screen = pg.display.set_mode((width, height + 100), 0, 32)
+
+# the title of the game window
 pg.display.set_caption("Tic Tac Toe")
 
 # loading the images
 opening = pg.image.load('mainScreen.png')
+
+# these variables hold the images for the x and o pictures that will be used
 x_img = pg.image.load('x.PNG')
 o_img = pg.image.load('o.PNG')
 
-# resizing images
+# this is how we resize images that we have already implemented
+# the numbers we see are the new dimensions
+# the first parameter is the variable name for the image, look above
 x_img = pg.transform.scale(x_img, (80, 80))
 o_img = pg.transform.scale(o_img, (80, 80))
 opening = pg.transform.scale(opening, (width, height + 100))
 
-
+# def is the start of a function
+# game_opening is the name of the function
+# the parantheses, (), are used to pass in parameters when needed
+# this function does not need any parameters passed in so it is empty
 def game_opening():
+
+    # COME BACK
     screen.blit(opening, (0, 0))
+
+    # this is used to update the screen
     pg.display.update()
+
+    # this line pauses the code for 1 second
     time.sleep(1)
+
+    # this will change the screens color
+    # in this case it will use the variable we made earlier
+    # for the color white
     screen.fill(white)
-    # Drawing vertical lines
+
+    # Drawing vertical lines (up and down)
+    # this is the same as what we did in activity 2 with drawing on the screen with lines and shapes
+    # COME BACK: FOR THE VARIABLES BEING DIVIDED AND SUCH
     pg.draw.line(screen, line_color, (width / 3, 0), (width / 3, height), 7)
     pg.draw.line(screen, line_color, (width / 3 * 2, 0), (width / 3 * 2, height), 7)
     # Drawing horizontal lines
@@ -69,8 +94,10 @@ def game_opening():
     pg.draw.line(screen, line_color, (0, height / 3 * 2), (width, height / 3 * 2), 7)
     draw_status()
 
-
+# creating another function called draw_status()
 def draw_status():
+    # remember the draw variable we made earlier?
+    #
     global draw
 
     if winner is None:
