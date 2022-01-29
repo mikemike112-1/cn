@@ -1,6 +1,6 @@
-#refactoring the code
+#!/usr/bin/env python
 
-# imports
+# import statements
 import pygame
 import sys
 import time
@@ -8,35 +8,90 @@ import random
 
 from pygame.locals import *
 
-# initiate pygame
+# frames per second
+FPS = 5
+
+# initializes pygame here
 pygame.init()
 
-
-# the variables
-FPS = 5
+# frames per second
 fpsClock = pygame.time.Clock()
+
+# defines the variables for the screen size
+# You will use these variables later to create the pixel size of the game window you will be
+# playing your game in later
+#this is the width (left to right)
 SCREEN_WIDTH = 640
+
+#this is the height (up to down)
 SCREEN_HEIGHT = 480
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
-surface = pygame.Surface(screen.get_size())
+
+# previously you were using DISPLAYSURF to make the screen and its dimension
+# in this game, we will use the variable name, 'screen'
+DISPLAYSURF = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
+
+# pygame.surface is used for various display related and screen related functions that you will be using throughout
+# the code
+# the DISPLAYSURF.get_size() will automatically retrieve the size of the screen to make sure that the objects we
+# will place on the screen are able to be used in the same width and height
+surface = pygame.Surface(DISPLAYSURF.get_size())
+
+# this is used solely for pixel formatting. it is not neccessarily visible to us therefore we are not going to spend
+# very much time on it
 surface = surface.convert()
+
+# this will fill in the background of the display with a specific color
+# it is using the rgb formatting here, (255, 255, 255), which is also the color white
+surface.fill((255, 255, 255))
+
+# the clock is used to control and keep track of how often the games display/screen refreeshes itself
 clock = pygame.time.Clock()
+
+# this will control how many often your computer will read-in a specific key on your keyboard when it is held down
+pygame.key.set_repeat(1, 40)
+
+# this defines the gridsize
+# the gridsize is used for several calculations with the screen later on
 GRIDSIZE = 10
+
+# MAYBE PUT IN AN EXAMPLE OF A GRID HERE FOR THE STUDENTS TO BETTER UNDERSTAND A GRID AND WHAT IT DOES OR LOOKS LIKE
+
+# this is a calculation used to define how the screen is split up
+# in this particular case, by dividing the screen into 10 parts we can reference the screen in more reasonable spots
+# do you remember the value of SCREENWIDTH? Look above if you do not
+# that is a very large number, imagine if that number was what we used to place our snake and snake food, then it would
+# all be way too small for us to actually see and play. Therefore by dividing the screen by 10 we are able to make the
+# screen much easier to play with
 GRID_WIDTH = SCREEN_WIDTH / GRIDSIZE
+
+# we are doing the same thing we did with the width here on the height as well
 GRID_HEIGHT = SCREEN_HEIGHT / GRIDSIZE
 
+# these coordinates are used to tell the snake which direction to go
+# we will use them later to change directions
 UP = (0, -1)
 DOWN = (0, 1)
 LEFT = (-1, 0)
 RIGHT = (1, 0)
 
-surface.fill((255, 255, 255))
-pygame.key.set_repeat(1, 40)
-screen.blit(surface, (0, 0))
+# here is some more screen formatting which we will not discuss too much at this time
+DISPLAYSURF.blit(surface, (0, 0))
 
-# the functions
+# this is our first function, it should look familiar to the activity which you did in the past with functions
+# it is used to draw a box
+# a box is the same as the small squares that will be appearing on the screen
+# this function has 3 parammeters that will be passed in from the calling of the function later in the code
+# surf is used for the surface size in pixels
+# color is the color of the box which will be passed in
+# pos is used to tell the current position or location that the box is going to be placed
 def draw_box(surf, color, pos):
+
+    # this variable will be using the parameter pos to get the x and y coordinates that the rectangle will be made on
+    # gridsize simply is telling the rectangle what size it will be in pixels
+    # look above if you do not remember how large GRIDSIZE is
+    # remember that the function follows the
     r = pygame.Rect((pos[0], pos[1]), (GRIDSIZE, GRIDSIZE))
+
     pygame.draw.rect(surf, color, r)
 
 
@@ -123,7 +178,7 @@ if __name__ == '__main__':
         textpos = text.get_rect()
         textpos.centerx = 20
         surface.blit(text, textpos)
-        screen.blit(surface, (0, 0))
+        DISPLAYSURF.blit(surface, (0, 0))
 
         pygame.display.flip()
         pygame.display.update()
