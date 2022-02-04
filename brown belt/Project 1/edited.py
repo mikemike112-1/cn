@@ -1,38 +1,82 @@
 import pygame
  
-# Define some colors
+# Define some colors to use later
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 
+# Here we are going to initialize pygame
 pygame.init()
 
-# Set the width and height of the screen [width, height]
+# Here, we will use a varibale to set the width and height of the screen [width, height]
 size = (700, 500)
+
+# Here we have a variable that will be used later on for creating the game display itself
+# Notice that we have passed in the size variable we previously made
+# If we needed to change the size of the screen now, we would do so by modifying the size variable
 screen = pygame.display.set_mode(size)
 
+# Now we are going to create our first class for this game
+# This class Ball will be used for making a ball along with defining the balls behaviors and features
 class Ball(object):
+
+    # This __init__ function is used to define what our initial values are
+    # Let's take some time to go through each of these and describe the purpose for each one
     def __init__ (self, screen, radius,x,y):
+
+        # Before we dive into the different properties of this class which we are initializing, let's make sure
+        # that we know what the word 'self' is being used for
+        # 'self' is a term used when defining or referring to a property that is inside of and belongs to a
+        # particular class
+        # the underscores (_) that you see are used here to simply help you remember that these properties are only
+        # able available to be used when you are inside of the correct class
+        # you cannot access them outside of the class and change them directly, you have to do some more work to get
+        # that completed.
+
+        # __screen will be used to replace the screen variable from above
         self.__screen = screen
+
+        # _radius will be used to replace the screen variable from above
         self._radius = radius
+
+        # _xLoc will be used to replace the screen variable from above
         self._xLoc = x
+
+        # _yLoc will be used to replace the screen variable from above
         self._yLoc = y
+
+        # __xVel and yVel are used to define the velocity of the ball
+        # if you do not know what velocity means, in its simples definition it means rate of change and direction
+        # for us, we will simplify it even more and call it the speed and direction
+
+        # __xVel will be used for the x velocity
         self.__xVel = 5
+
+        # __yVel will be used for the y directions velocity
+        # the minus sign indicates the direction that the ball will be moving
         self.__yVel = -3
-        w, h = pygame.display.get_surface().get_size()
+
+        # the following will be used for getting the width and height of the game by using the get_size() function
+        w,h = pygame.display.get_surface().get_size()
+
+        # here we are setting the width and height of the class to the already used width and height
         self.__width = w
         self.__height = h
+
+    # this function will draw a ball onto the screen
+    # by passing in the 'self' it allows us to pass the entire set of properties into this function and allows
+    # us to be able to use them as well
     def draw(self):
-        """
-            draws the ball onto screen.
-        """
         pygame.draw.circle(screen,(255, 0, 0) , (self._xLoc,self._yLoc), self._radius)
+
+    # the purpose of this function is to update the position of the ball on the screen and
+    # also checks if the ball has hit a wall and if so, turns the ball around
     def update(self, paddle, brickwall):
-        """
-            moves the ball at the screen.
-            contains some collision detection.
-        """
+
+        # look through this logic and see if you can determine some parts of it on your own
+        # remember, if you need hints look above to see if you can determine what the variables mean and how they work
+        # do not worry if you don't understand much or any of it
         self._xLoc += self.__xVel
         self._yLoc += self.__yVel
         if self._xLoc == self._radius:
@@ -44,11 +88,15 @@ class Ball(object):
         elif self._yLoc >= self.__height - self._radius:
             return True
 
-        # for bouncing off the bricks.
+        # this if statement uses a collide function being called that we have not yet created
+        # you will see it soon a little later in the code
         if brickwall.collide(self):
+            # basically if this if statement is true, then it will change the velocity to go the opposite which is
+            # why the yVel (the up and down velocity) is being flipped to go the opposite direction
             self.__yVel *= -1
 
-        # collision deection between ball and paddle
+        # these variables will be used to replace and simplify some of the more complicated variables from earlier
+        # these will be quite helpful in checking whether the ball and paddle have collided with each other
         paddleX = paddle._xLoc
         paddleY = paddle._yLoc
         paddleW = paddle._width
@@ -56,43 +104,54 @@ class Ball(object):
         ballX = self._xLoc
         ballY = self._yLoc
 
+        # this very long if statement check if the ball has managed to hit the paddle
+        # the '\' you see at the end of the first line simply says that the if statement is continued
+        # on the second line
+        # the word 'and' is the same thing as saying && in JavaScript
         if ((ballX + self._radius) >= paddleX and ballX <= (paddleX + paddleW)) \
         and ((ballY + self._radius) >= paddleY and ballY <= (paddleY + paddleH)):
             self.__yVel *= -1
 
+        # WHY IS THIS RETURNING FALSE?
         return False
         
-"""
-    Simple class for representing a paddle
-"""        
+# this class will be used for creating a paddle and defining the properties and behaviors of the paddle
 class Paddle (object):
+
+    # this __init__ does the same as the one above by defining all the variables we will be using inside this class
     def __init__ (self, screen, width, height,x,y):
         self.__screen = screen
         self._width = width
         self._height = height
         self._xLoc = x
         self._yLoc = y
-        w, h = pygame.display.get_surface().get_size()
+        w = pygame.display.get_surface().get_size()
+        h = pygame.display.get_surface().get_size()
         self.__W = w
         self.__H = h
+
+    # this function draws the paddle onto the screen
     def draw(self):
-        """
-            draws the paddle onto screen.
-        """
         pygame.draw.rect(screen, (0,0,0), (self._xLoc,self._yLoc,self._width,self._height),0)
+
+    # this update function is used to update the position of the paddle on the screen
     def update(self):
-        """
-            moves the paddle at the screen via mouse
-        """
+
+        # here we are going to start simplifying some of the variables that you make by putting them in the same line
+        # by placing x and y next to each other we are saying that the x and y variables are supposed to be equal to
+        # the same thing
         x,y = pygame.mouse.get_pos()
+
+        # this if statement is the one asking whether the mouse and paddle are at the same place
+        #  if they are not then the paddle moves its x position to the same one for the mouse
         if x >= 0 and x <= (self.__W - self._width):
             self._xLoc = x
  
-"""
-    This class represents a simple Brick class.
-    For representing bricks onto screen.
-"""
+# this class is used for creating the bricks and defining their behaviors
 class Brick (pygame.sprite.Sprite):
+
+    # this __init__ function does the prior __init__'s
+    # look above if you need a reminder as to what the job of it is
     def __init__(self, screen, width, height, x,y):
         self.__screen = screen
         self._width = width
@@ -103,35 +162,32 @@ class Brick (pygame.sprite.Sprite):
         self.__W = w
         self.__H = h
         self.__isInGroup = False
+
+    # this function draws a brick
+    # notice how the color is in as an RGB value, (56, 177, 237)
     def draw(self):
-        """
-            draws the brick onto screen.
-            color: rgb(56, 177, 237)
-        """
         pygame.draw.rect(screen, (56, 177, 237), (self._xLoc,self._yLoc,self._width,self._height),0)
+
+    # the bricks will be inside of a group and that group will be passed in to help keep track of them and
+    # their properties
     def add (self, group):
-        """
-            adds this brick to a given group.
-        """
+        # this line adds a brick to a group
         group.add(self)
+        # this line changes the flag indicating whether the brick is currently in a group or not
         self.__isInGroup = True
+
+    # this will remove the brick from a group
     def remove(self, group):
-        """
-            removes this brick from the given group.
-        """
         group.remove(self)
         self.__isInGroup = False
+
+    # if the brick is in a group then it is still alive and on the screen
     def alive(self):
-        """
-            returns true when this brick is belong to the brick wall.
-            otherwise false
-        """
+        # this will return true if it is in a group and false if it is not
         return self.__isInGroup
 
+    # some more collision detection, this time it is for the ball and the bricks
     def collide(self, ball):
-        """
-            collision deection between ball and this brick
-        """
         brickX = self._xLoc
         brickY = self._yLoc
         brickW = self._width
@@ -140,74 +196,74 @@ class Brick (pygame.sprite.Sprite):
         ballY = ball._yLoc
         radius = ball._radius
 
+        # this if statement checks if the ball and brick have touched each other, if so then it will return true
         if ((ballX + radius) >= brickX and ballX <= (brickX + brickW)) \
         and ((ballY + radius) >= brickY and ballY <= (brickY + brickH)):
             return True
 
         return False
 
-
-"""
-    This is a simple class for representing a 
-    brick wall.
-"""
+# this class will create a brick wall
 class BrickWall (pygame.sprite.Group):
+
+    # another __init__ this time it is for the brick wall
     def __init__ (self,screen, x, y, width, height):
         self.__screen = screen
         self._x = x
         self._y = y
         self._width = width
         self._height = height
+        # this line is one you may not have seen before
+        # the [] represent an empty arry
+        # arrays in python are mostly the same as arrays in JavaScript
+        # since you have multiple bricks, having an array helps to keep track of them
         self._bricks = []
 
         X = x
         Y = y
+
+        # this is a for loop that is going to make a 3 by 4 wall of bricks
+        # it will have 3 rows each with 4 bricks
+        # take a minute and see if you can realize how this
         for i in range(3):
             for j in range(4):
                 self._bricks.append(Brick(screen,width,height,X,Y))
                 X += width + (width/ 7.0)
             Y += height + (height / 7.0)
             X = x
-        
+
+    # this function will add a brick to the BrickWall group
     def add(self,brick):
-        """
-            adds a brick to this BrickWall (group)
-        """
+        # here, append means add
         self._bricks.append(brick)
+
+    # this function will remove a brick from the BrickWall group
     def remove(self,brick):
-        """
-            removes a brick from this BrickWall (group)
-        """
         self._bricks.remove(brick)
+
+    # this function will draw all the bricks onto the screen
     def draw(self):
-        """
-            draws all bricks onto screen.
-        """
         for brick in self._bricks:
             if brick != None:
                 brick.draw()
+
+    # this function will update the screen of the bricks which have been made
     def update(self, ball):
-        """
-            checks collision between ball and bricks.
-        """
         for i in range(len(self._bricks)):
             if ((self._bricks[i] != None) and self._bricks[i].collide(ball)):
                 self._bricks[i] = None
         
-        # removes the None-elements from the brick list.
+        # this cleans up the list of bricks of bricks that no longer exist
         for brick in self._bricks:
             if brick == None:
                 self._bricks.remove(brick)
+
+    # this checks if you have won simply by checking if all the bricks are gone
     def hasWin(self):
-        """
-            Has player win the game?
-        """
         return len(self._bricks) == 0
+
+    # this function checks if the brick has been hit by the ball
     def collide (self, ball):
-        """
-            check collisions between the ball and 
-            any of the bricks.
-        """
         for brick in self._bricks:
             if brick.collide(ball):
                 return True
