@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brown belt/Project 1/edited.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/potentialAdditions4/pygame-examples/brickout-game/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/potentialAdditions4/pygame-examples/brickout-game/classDiagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/potentialAdditions4/pygame-examples/brickout-game/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +22,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/brown belt/Project 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -38,7 +36,7 @@
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\Activity 7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.simplified (1)">
     <configuration name="charlie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,19 +79,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oliver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cn" />
+    <configuration name="simplified (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debugging/Activity 3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\Python Projects\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/Activity 7/potential activities" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debugging/Activity 3/oliver.py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/Activity 7/potential activities/simplified.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.simplified (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.charlie" />
         <item itemvalue="Python.simplified" />
         <item itemvalue="Python.snake" />
-        <item itemvalue="Python.oliver" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +176,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/potential additions 2/7544830" />
       <path value="$PROJECT_DIR$/potentialAdditions4/pygame-examples" />
