@@ -83,54 +83,67 @@ bulletX_change = 0
 bulletY_change = 10
 bullet_state = "ready"
 
-# the score code is below 
+# the score variables are below
 score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 32)
 
+# the x and y positions are defined here for some of the text we will be making later
 textX = 10
 testY = 10
 
-# Game Over
+# the Game Over font is defined and created here
 over_font = pygame.font.Font('freesansbold.ttf', 64)
 
-
+# this function is being used to define and show the score
+# the x and y coordinates are being passed in as far as where the score will be placed
 def show_score(x, y):
+    # this line is making the line of text for the score
+    # str() is telling the program to turn what is in the parentheses into a string
+    # you can think of a string as text and letters
     score = font.render("Score : " + str(score_value), True, (255, 255, 255))
+
+    # this like will place the text onto the screen
     screen.blit(score, (x, y))
 
-
+# this is just like show_score, the only difference is the text which says GAME OVER now
 def game_over_text():
     over_text = over_font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (200, 250))
 
-
+# this function is used to tell the player where to appear on the screen
 def player(x, y):
     screen.blit(playerImg, (x, y))
 
-
+# this function is used to tell a specific enemy where it should appear on the screen
 def enemy(x, y, i):
     screen.blit(enemyImg[i], (x, y))
 
-
+# this funciton is used to fire a bullet
 def fire_bullet(x, y):
+    # the word 'global' means that the variable is now accessible anywhere on the screen
     global bullet_state
+    # if you recall from the top of the code, the state of the bullet can be changed and here it is being set again
     bullet_state = "fire"
+    # from the other lines we have done so far, what do you think this line does?
     screen.blit(bulletImg, (x + 16, y + 10))
 
-
+# this function checks whether the bullet has hit an enemy
+# the simplest way of checking this is by checking if the two objects are at the same place
+# that is why you see x and y values being passed in
 def isCollision(enemyX, enemyY, bulletX, bulletY):
     distance = math.sqrt(math.pow(enemyX - bulletX, 2) + (math.pow(enemyY - bulletY, 2)))
+    # a result of true means it there has been a collission, false means there has not been a collision
     if distance < 27:
         return True
     else:
         return False
 
 
-# Game Loop
+# This is the loop that runs the game
 running = True
 while running:
 
-    # RGB = Red, Green, Blue
+    # this line should be quite familiar to you now, it fills the background of the screen to be white
     screen.fill((0, 0, 0))
     # Background Image
     screen.blit(background, (0, 0))
@@ -138,7 +151,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-        # if keystroke is pressed check whether its right or left
+        # these if statements check which key has been pressed on the keyboard
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 playerX_change = -5
@@ -146,6 +159,8 @@ while running:
                 playerX_change = 5
             if event.key == pygame.K_SPACE:
                 if bullet_state is "ready":
+                    # here we see how sound is played and when it is played
+                    # under what condition do we get to hear the sound played?
                     bulletSound = mixer.Sound("laser.wav")
                     bulletSound.play()
                     # Get the current x cordinate of the spaceship
@@ -168,13 +183,15 @@ while running:
     # Enemy Movement
     for i in range(num_of_enemies):
 
-        # Game Over
+        # if the enemy reaches the player then the game is over
+        # see if you can figure out how this code works
         if enemyY[i] > 440:
             for j in range(num_of_enemies):
                 enemyY[j] = 2000
             game_over_text()
             break
 
+        # this code will update the position of the specific enemny on the screen
         enemyX[i] += enemyX_change[i]
         if enemyX[i] <= 0:
             enemyX_change[i] = 4
@@ -183,20 +200,25 @@ while running:
             enemyX_change[i] = -4
             enemyY[i] += enemyY_change[i]
 
-        # Collision
+        # this code checks if a collision has happened by checking if the function we made earlier
+        # returns as true or false
         collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
+
+        # if the function returns as true then this code will run
+        # go through this code line by line and see if you can determine what each line does
         if collision:
             explosionSound = mixer.Sound("explosion.wav")
             explosionSound.play()
             bulletY = 480
             bullet_state = "ready"
             score_value += 1
+            # hint: random.randint() will give you a random integer (whole number) between a certain minimum and maximum
             enemyX[i] = random.randint(0, 736)
             enemyY[i] = random.randint(50, 150)
 
         enemy(enemyX[i], enemyY[i], i)
 
-    # Bullet Movement
+    # These next couple if statements help to control the bullet movement
     if bulletY <= 0:
         bulletY = 480
         bullet_state = "ready"
@@ -205,6 +227,12 @@ while running:
         fire_bullet(bulletX, bulletY)
         bulletY -= bulletY_change
 
+    # this function calls the player function from above while telling it where to go using the two
+    # parameters passed inside
     player(playerX, playerY)
+
+    # this function will call the function that shows the score
     show_score(textX, testY)
+
+    # lastly, this line should be familiar because it updates the display your game will be running on
     pygame.display.update()

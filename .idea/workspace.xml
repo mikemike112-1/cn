@@ -2,9 +2,851 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/edited.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brown belt/activity 1 maybe 2/non-integer movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brown belt/activity 1/move_4way_8way.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brown belt/non activity 1/aabb example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/1-2 sprite example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/1-3 sprite example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/aabb example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/arrowRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/blackSmoke00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/bunny1_ready.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/flash00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/flocking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/flocking2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/flyMan_fly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/hash example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/hash.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/hash.profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/hash2.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/arrowDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/arrowLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/arrowRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/arrowUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/downLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/downRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/upLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/icons/upRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/map_scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/mask_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/motion_equations_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/move_4way_8way.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/non-integer movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/particle demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/particles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/particles2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/arrowRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/base_old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/bfs_animate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/dijkstra_animate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/graph_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/graph_test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/home1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/mob_graph_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/mob_graph_test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/mob_graph_test_navmesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/mob_test_map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/pathfinding/part5_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/playerShip1_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/quad example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/rot-example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/screen_shake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/shake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/state_screens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/state_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/SteeringManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/arrowRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/p.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/part08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/steering/steering manager test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/tilemap_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/tilemap_demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/timestep example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/tween_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/vector sums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/vector_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/vector_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/whitePuff24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/img/p1_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/movement/motion_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/movement/move_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/movement/movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 1/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 10/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 11/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 12/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 13/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/snd/sfx_sounds_powerup16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 14/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/snd/Boost16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 15/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/img/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/img/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/img/cloud3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/snd/Boost16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 16/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/img/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/img/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/img/cloud3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/snd/Boost16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 17/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/img/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/img/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/img/cloud3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/snd/Boost16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 18/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 2/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 3/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 3/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 4/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 4/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 5/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 5/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 6/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 6/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 6/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 7/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 7/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 8/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 8/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 8/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 8/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/part 9/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/img/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/img/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/img/cloud3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/img/spritesheet_jumper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/img/spritesheet_jumper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/snd/Boost16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/snd/Happy Tune.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/snd/Jump33.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/snd/Jump40.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/snd/Yippee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/platform/working/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/pygame template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/bolt_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/laserRed16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_big1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_big2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_med1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_med3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_small1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_small2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/meteorBrown_tiny1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/p1_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/playerShip1_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/regularExplosion08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/shield_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/sonicExplosion08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/img/starfield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/rot-example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup-9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/shmup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/expl3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/expl6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/pew.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/pow4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/pow5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/rumble1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/shmup/snd/tgfcoder-FrozenJam-SeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 01/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 01/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 02/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 02/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 02/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 02/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 03/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 03/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 03/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 03/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 04/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 05/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 06/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 07/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 08/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 09/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 10/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 12/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 13/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 14/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 15/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 16/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 17/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 18/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 19/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 20/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/obj_shotgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/gun_pickup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 21/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/Impacted2.0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/obj_shotgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/gun_pickup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 22/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/Impacted2.0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/light_350_hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/light_350_med.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/light_350_soft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/obj_shotgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/gun_pickup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/part 23/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/attributions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/Impacted2.0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/ZOMBIE.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/health_pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/light_350_hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/light_350_med.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/light_350_soft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/manBlue_gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/obj_shotgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/splat green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/splat red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/spritesheet_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/tileGreen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/whitePuff15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/whitePuff16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/whitePuff17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/whitePuff18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/img/zombie1_hold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/maps/tiled1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/music/274732__tyops__suspense-ambient.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/music/DST-RailJet-LongSeamlessLoop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/music/Dark Intro.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/music/espionage.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/brains2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/brains3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/gun_pickup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/health_pack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/level_start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pain/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/pistol.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/sfx_weapon_singleshot2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/shotgun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/splat-15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/snd/zombie-roar-8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/tilemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment1/pygame_tutorials/tilemap/working/todo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brown belt/Project 1/edited.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/Project 1/edited.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/edited.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/edited.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,53 +869,32 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/brown belt/activity 1 maybe 2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1 maybe 2" />
+      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1 maybe" />
+      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 2" />
+      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1" />
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\project 2\Space-Invaders-Pygame" />
-      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\Project 1" />
-      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\debugging\Activity 5" />
-      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\debugging\Activity 3" />
-      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\Activity 7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="charlie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debugging/Activity 5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debugging/Activity 5/charlie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="edited" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mask_demo">
+    <configuration name="aabb example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/Project 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/Project 1/edited.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 1/aabb example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,19 +903,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mask_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,19 +924,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simplified (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="non-integer movement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 1 maybe 2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 1 maybe 2/non-integer movement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rot-example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\Python Projects\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/Activity 7/potential activities" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/Activity 7/potential activities/simplified.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/rot-example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,19 +966,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simplified" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cn" />
+    <configuration name="screen_shake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Activity 7/potential activities" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\pythonProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Activity 7/potential activities/simplified.py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/screen_shake.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,13 +987,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.rot-example" />
+      <item itemvalue="Python.screen_shake" />
+      <item itemvalue="Python.aabb example" />
+      <item itemvalue="Python.non-integer movement" />
+      <item itemvalue="Python.mask_demo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.edited" />
-        <item itemvalue="Python.simplified (1)" />
-        <item itemvalue="Python.charlie" />
-        <item itemvalue="Python.simplified" />
+        <item itemvalue="Python.mask_demo" />
+        <item itemvalue="Python.non-integer movement" />
+        <item itemvalue="Python.aabb example" />
+        <item itemvalue="Python.screen_shake" />
+        <item itemvalue="Python.rot-example" />
       </list>
     </recent_temporary>
   </component>
