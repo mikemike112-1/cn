@@ -1,3 +1,7 @@
+"""
+PUT THIS IN BEFORE PURPLE BELT RIGHT BEFORE SNAKE
+"""
+
 # this activity is going to show you how you can move an object on your screen by using the arrow keys
 
 # this is our typical pygame import that will let us use pygame functions

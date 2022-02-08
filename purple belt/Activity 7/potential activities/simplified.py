@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# import statements
+# Import statements
 import pygame
 import sys
 import time
