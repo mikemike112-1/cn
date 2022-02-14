@@ -272,12 +272,19 @@ if __name__ == '__main__':
         snake.draw(surface)
         apple.draw(surface)
         font = pygame.font.Font(None, 36)
+
+        # this line may be a bit unfamiliar to you
+        # it has str() which simply tells the code that it is a 'string'
+        # you can think of a string as a word
+        # the .length is used to find out how long the snake is
+        # .length is useful when you want to know how many things are inside an array
         text = font.render(str(snake.length), 1, (10, 10, 10))
         textpos = text.get_rect()
         textpos.centerx = 20
         surface.blit(text, textpos)
         DISPLAYSURF.blit(surface, (0, 0))
 
+        # flip is used to help the display update properly
         pygame.display.flip()
         pygame.display.update()
         fpsClock.tick(FPS + snake.length / 3)

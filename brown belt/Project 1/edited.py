@@ -305,72 +305,67 @@ textsurfaceGameOver = mgGameOver.render('Game Over!', False, (0, 0, 0))
 textsurfaceWin = mgWin.render("You win!",False,(0,0,0))
 textsurfaceScore = mgScore.render("score: "+str(score),False,(0,0,0))
    
- 
-# -------- Main Program Loop -----------
+# this is the main loop that makes the game display run and all the parts update properly
 while not done:
-    # --- Main event loop
+    # this loop is the ont similar to the other projects you have worked on in the past
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
- 
-    # --- Game logic should go here
- 
-    # --- Screen-clearing code goes here
- 
-    # Here, we clear the screen to white. Don't put other drawing commands
-    # above this, or they will be erased with this command.
- 
-    # If you want a background image, replace this clear with blit'ing the
-    # background image.
+
+    # fills the screen's background with the color white
     screen.fill(WHITE)
- 
-    # --- Drawing code should go here
-    
-    """
-        Because I use OOP in the game logic and the drawing code,
-        are both in the same section.
-    """
+
+    # checks if gameStatus is true or not
     if gameStatus:
 
         # first draws ball for appropriate displaying the score. 
         brickWall.draw()
 
-         # for counting and displaying the score
+         # this if statement is for keeping track of the score
         if brickWall.collide(ball):
             score += 10
+        # these statements here actually show the score onto the screen
         textsurfaceScore = mgScore.render("score: "+str(score),False,(0,0,0))
         screen.blit(textsurfaceScore,(300,0))
 
-        # after scoring. because hit bricks are removed in the update-method
+        # this will update the wall by calling the update function inside of the brickWall class we made above
         brickWall.update(ball)
 
+        # what do these 2 lines do?
         paddle.draw()
         paddle.update()
 
+        # if our update function for the ball returns true then the game will be set to game over
+        # the 2 variables inside will be used to determine what action to take
         if ball.update(paddle, brickWall):
             isGameOver = True
             gameStatus = False
-        
+
+        # check if the wall has won
         if brickWall.hasWin():
             gameStatus = False
 
+        # what does this line do?
         ball.draw()
 
-    else: # game isn't running.
-        if isGameOver: # player lose
+    # when the game is not running anymore then run the code in this else statement
+    else:
+        # if the player loses then run the if statement code
+        if isGameOver:
             screen.blit(textsurfaceGameOver,(0,0))
             textsurfaceScore = mgScore.render("score: "+str(score),False,(0,0,0))
             screen.blit(textsurfaceScore,(300,0))
-        elif brickWall.hasWin(): # player win
+        # if the player loses then run the elif code
+        elif brickWall.hasWin():
             screen.blit(textsurfaceWin,(0,0))
             textsurfaceScore = mgScore.render("score: "+str(score),False,(0,0,0))
             screen.blit(textsurfaceScore,(300,0))
      
-    # --- Go ahead and update the screen with what we've drawn.
+    # update the screen
     pygame.display.flip()
  
-    # --- Limit to 60 frames per second
+    # this will limit our frames per second to be 60
     clock.tick(60)
  
-# Close the window and quit.
+# end the game and closes the window
 pygame.quit()
