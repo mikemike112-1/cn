@@ -9,7 +9,7 @@ GREEN = (0, 255, 0)
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Move a Box")
+pygame.display.set_caption("move a box!")
 clock = pygame.time.Clock()
 
 
@@ -22,7 +22,6 @@ class Player(pygame.sprite.Sprite):
         self.rect.centerx = WIDTH / 2
         self.rect.bottom = HEIGHT - 10
         self.speedx = 0
-
 
     def update(self):
         self.speedx = 0
@@ -52,3 +51,6 @@ while running:
     all_sprites.draw(screen)
     pygame.display.flip()
 pygame.quit()
+
+
+
