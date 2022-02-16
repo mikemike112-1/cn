@@ -3,7 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/debugging/Activity 8/zach.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/debugging/Activity 8/zach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/classDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/pys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/sensei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/chapter2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/chapter2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/sensei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/Activity 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/Activity 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/pys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/sensei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/Activity 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/Activity 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/OLDcat.png" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/OLDcat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/cat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/pys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/sensei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/Activity 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/Activity 4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/pys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/sensei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 5/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 5 pys/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 6 functions intro/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/potential activities/first.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/potential activities/simplified.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 7 snake/sensei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 7 snake/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
