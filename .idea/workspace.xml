@@ -3,57 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/classDiagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/brickout-game/game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/pys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/2Activity 6/sensei.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/chapter2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/chapter2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 1/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 1 simple display/sensei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/Activity 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/Activity 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/pys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 2/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 2 shapes intro/sensei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/Activity 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/Activity 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/OLDcat.png" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/OLDcat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/cat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/pys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 3/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 3 cat movement/sensei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/Activity 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/Activity 4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/pys.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/pys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 4/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 4 hello world/sensei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 5/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 5 pys/description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 6 functions intro/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/potential activities/first.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/potential activities/simplified.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/sensei.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 7 snake/sensei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple belt/Activity 7/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/purple belt/Activity 7 snake/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/activity 1 maybe 2/non-integer movement.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/activity 1/non-integer movement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/actually going to purple/move_4way_8way.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/move to purple/move_4way_8way.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/non activity 1/aabb example.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/activity 3/aabb example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/edited.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/project 2/Space-Invaders-Pygame/commented.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +50,20 @@
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zach (1)">
-    <configuration name="Anthony" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mask_demo">
+    <configuration name="mask_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/debugging/Activity 9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/debugging/Activity 9/Anthony.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,19 +72,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oliver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="non-integer movement (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/debugging/Activity 5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/debugging/Activity 5/oliver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 1/non-integer movement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="non-integer movement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 1 maybe 2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 1 maybe 2/non-integer movement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,41 +156,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/debugging/Activity 7" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/debugging/Activity 7/zach.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.zach" />
       <item itemvalue="Python.zach (1)" />
-      <item itemvalue="Python.Anthony" />
-      <item itemvalue="Python.oliver" />
       <item itemvalue="Python.sensei" />
+      <item itemvalue="Python.non-integer movement" />
+      <item itemvalue="Python.non-integer movement (1)" />
+      <item itemvalue="Python.mask_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mask_demo" />
+        <item itemvalue="Python.non-integer movement (1)" />
+        <item itemvalue="Python.non-integer movement" />
         <item itemvalue="Python.zach (1)" />
         <item itemvalue="Python.sensei" />
-        <item itemvalue="Python.oliver" />
-        <item itemvalue="Python.Anthony" />
-        <item itemvalue="Python.zach" />
       </list>
     </recent_temporary>
   </component>

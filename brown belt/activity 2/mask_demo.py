@@ -1,6 +1,7 @@
 # quick demo to help explain masks and pixel perfect collisions
 import pygame as pg
 
+
 WIDTH = 480
 HEIGHT = 480
 FPS = 60
