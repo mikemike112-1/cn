@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 3/commented_aabb example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 3/original_aabb example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 3/sensei_aabb example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brown belt/activity 4/playerShip1_orange.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brown belt/activity 3/aabb example.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +36,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/brown belt/activity 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/brown belt/activity 4" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 4" />
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 3" />
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 2" />
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\purple belt\debugging\project1" />
       <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1 maybe 2" />
-      <recent name="C:\Users\michael\Documents\Code Ninjas\pythonCurriculum\cn\brown belt\activity 1 maybe" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.commented_aabb example">
-    <configuration name="aabb example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\Python Projects\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 3/aabb example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="anthony" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/purple belt/debugging/Activity 8" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purple belt/debugging/Activity 8/anthony.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.rot-example (1)">
     <configuration name="commented_aabb example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,19 +70,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mask_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flocking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/flocking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,19 +91,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sensei_mask_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quad example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\Python Projects\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 2/sensei_mask_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/quad example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rot-example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\michael\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brown belt/activity 4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brown belt/activity 4/rot-example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rot-example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\michael\Documents\Programming\Python Projects\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment1/pygame_tutorials/examples/rot-example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,19 +155,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mask_demo" />
-      <item itemvalue="Python.anthony" />
-      <item itemvalue="Python.sensei_mask_demo" />
-      <item itemvalue="Python.aabb example" />
       <item itemvalue="Python.commented_aabb example" />
+      <item itemvalue="Python.flocking" />
+      <item itemvalue="Python.quad example" />
+      <item itemvalue="Python.rot-example" />
+      <item itemvalue="Python.rot-example (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rot-example (1)" />
+        <item itemvalue="Python.rot-example" />
+        <item itemvalue="Python.quad example" />
+        <item itemvalue="Python.flocking" />
         <item itemvalue="Python.commented_aabb example" />
-        <item itemvalue="Python.aabb example" />
-        <item itemvalue="Python.sensei_mask_demo" />
-        <item itemvalue="Python.mask_demo" />
-        <item itemvalue="Python.anthony" />
       </list>
     </recent_temporary>
   </component>
