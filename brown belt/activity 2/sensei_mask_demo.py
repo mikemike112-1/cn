@@ -1,12 +1,9 @@
-# quick demo to help explain masks and pixel perfect collisions
 import pygame as pg
 
-# Define the screen size dimensions that will be used
 WIDTH = 480
 HEIGHT = 480
 FPS = 60
 
-# Define the color variables that will be used during the game
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
@@ -16,62 +13,32 @@ MAGENTA = (255, 0, 255)
 YELLOW = (255, 255, 0)
 CYAN = (0, 255, 255)
 
-# Initialize pygame here and create the game window
 pg.init()
 pg.mixer.init()
 screen = pg.display.set_mode((WIDTH, HEIGHT))
 pg.display.set_caption("My Game")
 clock = pg.time.Clock()
 
-# This function will be used for adding text onto the screen
-# It takes 4 different parameters: text, size, color, x, y
 def draw_text(text, size, color, x, y):
-
-    # This variable is choosing the font style that will be used
     font_name = pg.font.match_font('arial')
-    # This variable is setting the font to the style we just chose and the size we passed in as a parameter
     font = pg.font.Font(font_name, size)
-    # This line here creates the font onto the screen for us to be able to see
     text_surface = font.render(text, True, color)
-
-    # Here, we are going to be making a rectangle
     text_rect = text_surface.get_rect()
-    # Now we are choosing where on the screen the rectangle will be placed
     text_rect.midtop = (x, y)
-    # This is a line we have used in the past to display the rectangle on the screen
     screen.blit(text_surface, text_rect)
 
-# These variables will be used for creating variables for the image files that we will soon add into our game
 ship_image = pg.image.load('playerShip1_orange.png').convert_alpha()
-
-# This line is resizing the size of the ship_image variable
 ship_image = pg.transform.scale(ship_image, (200, 76 * 2))
-
-# Now we continue adding more image variables into the code
 bunny_image = pg.image.load('bunny1_ready.png').convert_alpha()
 enemy_image = pg.image.load('flyMan_fly.png').convert_alpha()
-
-# This is the start of the class for our Player class
-# The parameter being passed in is the player which will have its properties properly updated
 class Player(pg.sprite.Sprite):
-
-    # This function will set up the player object and define some important properties we will be using
     def __init__(self, image):
         pg.sprite.Sprite.__init__(self)
         self.image = image
-
-        """
-        The following line was commented by the original authors
-        You are free to disregard it as it does not directly affect anything in the activity 
-        It deals with transparency and more info can be found on the pygame website 
-        """
         # self.image.set_colorkey(BLACK)
-
-        # Set up a rectangle to be used
         self.rect = self.image.get_rect()
         self.mask = pg.mask.from_surface(self.image)
         self.rect.center = (WIDTH / 2, HEIGHT / 2)
-
 
 all_sprites = pg.sprite.Group()
 p1 = Player(bunny_image)
@@ -82,19 +49,16 @@ p2.rect.x -= 125
 p2.rect.y -= 125
 
 def draw_mask(sprite):
-    # fill the sprite's mask
     for x in range(sprite.rect.width):
         for y in range(sprite.rect.height):
             if sprite.mask.get_at((x, y)):
                 pg.draw.circle(sprite.image, MAGENTA, (x, y), 1)
 
 def draw_outline(sprite):
-    # outline the sprite's mask
     o = sprite.mask.outline()
     for px in o:
         pg.draw.circle(sprite.image, MAGENTA, px, 2)
 
-# Game loop
 running = True
 outline_on = False
 fill_on = False
@@ -120,7 +84,6 @@ while running:
                 outline_on = not outline_on
                 fill_on = False
 
-    # Update
     all_sprites.update()
     h = pg.sprite.collide_mask(p1, p2)
     if outline_on:
