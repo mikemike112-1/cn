@@ -72,7 +72,7 @@ class Player(pg.sprite.Sprite):
         self.mask = pg.mask.from_surface(self.image)
         self.rect.center = (WIDTH / 2, HEIGHT / 2)
 
-
+# Here we are setting up the players in the game and adding them to their respective groups
 all_sprites = pg.sprite.Group()
 p1 = Player(bunny_image)
 all_sprites.add(p1)
@@ -81,26 +81,31 @@ all_sprites.add(p2)
 p2.rect.x -= 125
 p2.rect.y -= 125
 
+# This function is used to fill the sprite's mask
 def draw_mask(sprite):
-    # fill the sprite's mask
     for x in range(sprite.rect.width):
         for y in range(sprite.rect.height):
             if sprite.mask.get_at((x, y)):
                 pg.draw.circle(sprite.image, MAGENTA, (x, y), 1)
 
+# This function draws the circle which goes around the sprites outline
 def draw_outline(sprite):
     # outline the sprite's mask
     o = sprite.mask.outline()
     for px in o:
         pg.draw.circle(sprite.image, MAGENTA, px, 2)
 
-# Game loop
+# This is the setup for the loop which will be running and updating the game once it starts
 running = True
 outline_on = False
 fill_on = False
 pg.key.set_repeat(200, 50)
+
+# Here is the while loop for the game running
 while running:
     clock.tick(FPS)
+
+    # The following for loop checks what key has been pressed and updates the game screen with the right positions
     for event in pg.event.get():
         if event.type == pg.QUIT:
             running = False
@@ -120,9 +125,13 @@ while running:
                 outline_on = not outline_on
                 fill_on = False
 
-    # Update
+    # Update the sprites on the screen
     all_sprites.update()
+
+    # Check if the two sprites have collided
     h = pg.sprite.collide_mask(p1, p2)
+
+    # If there is collision then draw on the screen with the appropriate circles
     if outline_on:
         draw_outline(p2)
         draw_outline(p1)
@@ -132,14 +141,23 @@ while running:
     elif not outline_on and not fill_on:
         p1.image = bunny_image.copy()
         p2.image = enemy_image.copy()
+
+    """
+    The following commented code was commented out by the original authors
+    I'm not sure what it does but I don't think it is needed  
+    """
     # h = p1.mask.overlap_area(p2.mask, (p1.rect.x-p2.rect.x, p1.rect.y-p2.rect.y))
     # pg.display.set_caption(str(h))
 
+    # Create and display the remaining objects and shapes needed onto the screen
+    # Grab your sensei and see if you can explain to them what each of the next lines do
     screen.fill((40, 40, 40))
     screen.blit(p1.image, p1.rect)
     pg.draw.rect(screen, WHITE, p1.rect, 1)
     pg.draw.rect(screen, WHITE, p2.rect, 1)
     screen.blit(p2.image, p2.rect)
+
+    # Lastly, here is where our text is displayed and updated
     draw_text("Hit: " + str(h), 18, WHITE, WIDTH / 2, 5)
     if h:
         px = (h[0] + p1.rect.x, h[1] + p1.rect.y)

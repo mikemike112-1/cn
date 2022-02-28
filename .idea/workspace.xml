@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd59791-31f3-4c39-88e7-87e33587fc9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/bunny1_ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/flyMan_fly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/original_mask_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/playerShip1_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brown belt/activity 2/sensei_mask_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/purple belt/debugging/Activity 8/anthony.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/purple belt/debugging/Activity 9/zach.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/brown belt/activity 2/mask_demo.py" afterDir="false" />
     </list>
